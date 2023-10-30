@@ -9,14 +9,14 @@ class Main{
       n/=10;
     }
     while(m>0){
-      ans+=(Math.pow(m%10,count);
+      ans+=(Math.pow(m%10,count));
       m/=10;
     }
     if(ans==temp){
-      System.out.println(temp+"Is Armstrong Number");
+      System.out.println(temp+" Is Armstrong Number");
     }
     else{
-      System.out.prinntln(temp+"Is Not Armstrong Number");
+      System.out.println(temp+" Is Not Armstrong Number");
     }
   }
 }
