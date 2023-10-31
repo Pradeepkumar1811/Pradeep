@@ -2,7 +2,7 @@ class Employee{
     String name;
     int age;
     String department;
-    int salary;
+    double salary;
     Employee(){
         this.name="pradeep";
         this.age=21;
