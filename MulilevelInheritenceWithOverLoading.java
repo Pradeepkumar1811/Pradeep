@@ -4,7 +4,7 @@ class Shape{
         System.out.println("Color Of "+s+" Is Blue");
     }
     public void area(String s){
-        System.out.println("AreaOf"+s);
+        System.out.print("AreaOf"+s+": ");
     }
 }
 class Triangle extends Shape{
