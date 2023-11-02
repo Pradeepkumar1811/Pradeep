@@ -17,7 +17,7 @@ class Circle extends Triangle{
         System.out.println((double)22/7*r*r);
     }
 }
-public class MultilevelInheritenceWithOverLoading
+public class MultilevelInheritenceWithOverLoadin
 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
