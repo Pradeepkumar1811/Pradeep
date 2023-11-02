@@ -23,15 +23,24 @@ public class MultilevelInheritenceWithOverLoading
 		Scanner sc=new Scanner(System.in);
 		Circle c=new Circle();
 		String s=sc.next();
-		double base=sc.nextDouble();
-		double height=sc.nextDouble();
-		String str=sc.next();
-		int radius=sc.nextInt();
-		c.printColor(s);
-		c.area(s);
-		c.area(base,height);
-		c.printColor(str);
-		c.area(str);
-		c.area(radius);
+		s=s.toLowerCase();
+		switch(s){
+		    case "triangle":
+		        double base=sc.nextDouble();
+		        double height=sc.nextDouble();
+		        c.printColor(s);
+		        c.area(s);
+		        c.area(base,height);
+		        break;
+		    case "circle":
+		        int radius=sc.nextInt();
+		        c.printColor(s);
+		        c.area(s);
+		        c.area(radius);
+		        break;
+		    default:
+		       System.out.println("This Program can calculate only area of Triangle And Circle");
+		       break;
+		}
 	}
 }
