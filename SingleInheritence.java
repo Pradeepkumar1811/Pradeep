@@ -1,7 +1,7 @@
 import java.util.*;
 class Shape{
     public void printColor(String s){
-        System.out.println("Color Of "+s+" Blue");
+        System.out.println("Color Of "+s+" Is Blue");
     }
 }
 class Triangle extends Shape{
