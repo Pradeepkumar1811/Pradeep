@@ -6,7 +6,7 @@ public class Circle {
 	public Circle(){
 		this(1.5f);
 	}
-	Circle(float radius) {
+	protected Circle(float radius) {
 		this(radius,3.5f);
 	}
 	private Circle(float radius,float pi) {
